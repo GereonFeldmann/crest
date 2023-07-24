@@ -112,7 +112,7 @@ module hessian_tools
       amv=ams(1:118)
   
       do i = 1,nat 
-        do j = 1,nat
+        do j = i,nat
 
             i3 = 3*(i-1)+1
             i33 = 3*(i-1)+3
